@@ -1,0 +1,46 @@
+.hidden {
+    display: none;
+}
+
+.header {
+    background-color: var(--darkblue);
+    border-bottom: 1px solid var(--gray);
+    border-radius: 5px;
+    color: var(--lightgray);
+    display: flex;
+    font-size: 2rem;
+    height: 40px;
+    justify-content: end;
+    position: fixed;
+    text-align: end;
+    width: 100%;
+    z-index: 1;
+}
+
+.profile {
+    width: auto;
+    background-color: inherit;
+    color: var(--lightgray);
+    font-size: 1.9rem;
+    padding: 5px 12px 5px 5px;
+    position: relative;
+}
+
+.profile:hover{
+    background-color: inherit;
+}
+
+.dropdown {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    z-index: 1000;
+}
+
+a {
+    all: unset;
+}

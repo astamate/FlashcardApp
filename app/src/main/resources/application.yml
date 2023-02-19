@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/flashcard'
+    username: admin
+    password: pass
+  jpa.hibernate.ddl-auto: create-drop
+
+
+springdoc:
+  use-management-port: true
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      basepath: /
+      exposure:
+        include: openapi, swaggerui, health
+    jmx:
+      exposure:
+        include: "*"

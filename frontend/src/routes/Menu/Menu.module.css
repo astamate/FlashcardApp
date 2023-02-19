@@ -1,0 +1,86 @@
+.sidenav {
+    background: var(--darkgray);
+    color: var(--lightgreen);
+    flex-shrink: 0;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: ease-out 0.35s;
+    width: 175px;
+    z-index: 2;
+}
+
+.burgerNav {
+    color: var(--lightgreen);
+    font-size: 2rem;
+    left: 12px;
+    margin-right: 16px;
+    position: fixed;
+    top: 2px;
+    z-index: 2;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.title {
+    border-bottom: 1px solid var(--gray);
+    color: var(--lightgreen);
+    cursor: pointer;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 80px;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.link {
+    color: #7a7171;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    height: 3rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.links {
+    flex: 1 1 auto;
+}
+
+.link:hover {
+    color: var(--lightgray);
+    text-decoration: underline;
+}
+
+
+.media {
+    align-items: center;
+    bottom: 5px;
+    font-size: 2rem;
+}
+
+.media a {
+    color: var(--lightgreen)
+}
+
+.footer {
+    color: var(--lightgreen);
+    flex: 0 1 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

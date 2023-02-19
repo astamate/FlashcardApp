@@ -1,0 +1,5 @@
+.listBody {
+    color: rgb(134, 134, 134);
+    flex-grow: 1;
+    text-align: center;
+}
